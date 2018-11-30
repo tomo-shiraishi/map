@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+h6 {
+  margin-top: 35px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+label {
+  line-height: 0;
+}
+
+.setup {
+  display: table;
+  width: 75%;
+  height: 100vh;
+  text-align: center;
+}
+
+section#map {
+  height: 100%;
+}
+
+.inner-form {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner-form > form > label {
+  float: left;
+}
+
+.inner-form > form > input {
+  margin-bottom: 3rem;
+}
+
+.user-create {
+  height: 100vh;
+  width: 50%;
+  display: table;
+}
+
+.button {
+  text-align: center;
+}
+
+#map-canvas {
+ width: 100%;
+ height: 100%;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+#map {
+  height: 100%;
+}
+
+.favorite {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.time {
+  width: 25%;
+}
+
+.radio {
+  margin-top: 5px;
+}
+
+.mixcontainer {
+	padding:2%;
+	text-align:justify;
+}
+
+.mixcontainer .mix,
+.mixcontainer .gap {
+	display:inline-block;
+	width:49%;
+}
+
+#container .mix {
+	display:none;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.bg-yellow {
+  background-color: #f1c40f !important;
+}
+
+.bg-orange {
+  background-color: #f39c12 !important;
+}
+
+.bg-carrot {
+  background-color: #e67e22 !important;
+}
+
+.bg-pumpkin {
+  background-color: #d35400 !important;
+}
+
+.bg-alizarin {
+  background-color: #e74c3c !important;
+}
+
+.bg-pomegranate {
+  background-color: #c0392b !important;
+}
+
+.bg-clouds {
+  background-color: #ecf0f1 !important;
+}
+
+.bg-silver {
+  background-color: #bdc3c7 !important;
+}
+
+.bg-concrete {
+  background-color: #95a5a6 !important;
+}
+
+.bg-asbestos {
+  background-color: #7f8c8d !important;
+}
+
+.bg-turquoise {
+  background-color: #1abc9c !important;
+}
+
+.bg-greensea {
+  background-color: #16a085 !important;
+}
+
+.bg-emerald {
+  background-color: #2ecc71 !important;
+}
+
+.bg-nephritis {
+  background-color: #27ae60 !important;
+}
+
+.bg-peterriver {
+  background-color: #3498db !important;
+}
+
+.bg-belizehole {
+  background-color: #2980b9 !important;
+}
+
+.bg-amethyst {
+  background-color: #9b59b6 !important;
+}
+
+.bg-wisteria {
+  background-color: #8e44ad !important;
+}
+
+.bg-wetasphalt {
+  background-color: #34495e !important;
+}
+
+.bg-midnightblue {
+  background-color: #2c3e50 !important;
+}
+
+div.mix-target.midnightblue {
+  border-top: 10px solid #2c3e50;
+}
+
+/******************/
+
+/* CUSTOM STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.multi {
+	display: inline;
+	top: 0;
+	left: 3px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.programs,
+.courses {
+	margin: 8px 0 0 0;
+}
+
+.programs {
+	font-size: 0;
+	margin-bottom: 15px;
+}
+
+.programs button {
+  margin-bottom: 15px;
+}
+
+/* .programs button:hover {
+	background: #99cfe0;
+}
+
+.programs button.programs-filter-btn-active,
+.programs button.programs-sort-btn-active {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5) inset, 0px 0px 1px transparent;
+	background: #3a9fbf;
+	color: white;
+} */
+
+.courses {
+	margin-bottom: 15px;
+	font-size: 0;
+}
+
+.courses div.mix-target {
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	width: 30%;
+  height: 250px;
+  background: whitesmoke;
+  margin:0 1% 2% 1%;
+}
+
+.courses div.mix-target div {
+  cursor: default;
+}
+.courses div.mix-target:not(:nth-child(3n)) {
+  margin-right: 2%;
+}
+
+.courses a {
+	display: block;
+  /* width: 100%;
+  height: 100%; */
+	/* margin: 15px 0; */
+	padding-top: 12.5px;
+	color: black;
+}
+
+.courses a:hover {
+	background: #99cfe0;
+}
+
+.p, .p a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* チャットぶぶん */
+.chat-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden; /*floatの解除*/
+    margin-bottom: 20px;
+}
+.chat-face {
+    float: left;
+    margin-right: -120px;
+}
+.chat-face img{
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px #ddd;
+}
+.chat-area {
+    width: 100%;
+    float: right;
+}
+.chat-hukidashi {
+    display: inline-block; /*コメントの文字数に合わせて可変*/
+    padding: 15px 20px;
+    margin-left: 120px;
+    margin-top: 8px;
+    /* border: 1px solid gray; ←削除 */
+    border-radius: 10px;
+    position: relative; /*追記*/
+    background-color: #D9F0FF; /*追記*/
+}
+/* ↓追記↓ */
+.chat-hukidashi:after {
+    content: "";
+    position: absolute;
+    top: 50%; left: -10px;
+    margin-top: -10px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #D9F0FF transparent transparent;
+}
+.someone {
+    background-color: #BCF5A9;
+}
+.someone:after {
+    border-color: transparent #BCF5A9 transparent transparent;
+}
